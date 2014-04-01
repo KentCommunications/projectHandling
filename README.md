@@ -17,8 +17,51 @@ Existing Projects
 Open a shell in the root of the project directory and run the following commands:
 
     > git init     
-    > git add .
+    > git add --all
     > git commit -am "Initial Commit"
+
+This will begin tracking al the files in the project directory 
+
+
+
+
+Layout and Structure
+====================
+
+Documentation
+-------------
+
+
+Code
+----
+
+### Directories
+
+#### top level 
+
+* Source
+* data
+* tests
+
+#### root dir
+
+* .gitignore
+* .gitattributes
+* README.md
+  * How to setup initially
+    * Begin development
+    * run first job
+    * submit patch
+  * Who started the project
+  * any outstanding bugs
+  * need to know info
+* install script
+
+
+
+Data
+----
+
 
 
 
