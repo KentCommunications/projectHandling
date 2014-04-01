@@ -22,15 +22,13 @@ Open a shell in the root of the project directory and run the following commands
 
 This will begin tracking al the files in the project directory 
 
-
-
-
 Layout and Structure
 ====================
 
 Documentation
 -------------
 
+wiki when possible. except intial setup and need to know before editting and submitt patches, which should be in the README.md
 
 Code
 ----
@@ -40,13 +38,18 @@ Code
 #### top level 
 
 * Source
+  * all source files
+  * lib folder 
+    * contains all thirdparty libraries, or UDFs
 * data
+  * testing data
+  * access databases
+    * must contain any needed VBA
 * tests
 
 #### root dir
 
 * .gitignore
-* .gitattributes
 * README.md
   * How to setup initially
     * Begin development
@@ -57,11 +60,34 @@ Code
   * need to know info
 * install script
 
+SOURCE
+-----
 
 
 Data
 ----
 
 
+Tests
+-----
 
 
+.gitignore
+----------
+
+README.md
+---------
+
+Install Script
+--------------
+
+
+
+Intermediate steps
+------------------
+
+- Databases
+  - track in DB
+only until an install script or instruction are availble to create a local instance.
+
+VBA code should be stored in Source files in their own sub dir when possible.
