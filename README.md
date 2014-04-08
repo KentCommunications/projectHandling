@@ -72,7 +72,7 @@ your readme needs to contain the following information.
 
 your readme should begin with a summary of what the purpose of the repoistory is. a Title, and a paragraph giving the general understanding to anyone who opens the repo.
 
-~~~ Markdown
+~~~md
 Main Project Title
 ==================
 
@@ -81,6 +81,37 @@ The <Main Project> was created by, <Author Name> to do something really cool, an
 
 ### Prerequisites
 
+You should explain any tools, libraries, IDEs, runtimes, Operating systems, or applications that are needed in order to run or develop this application.
+
+You should have a bulleted list of applications that are needed (with links when possible.)
+
+~~~md
+### Required applications
+
+* [Scite for AutoIt](autoit.com)
+* [BCC Mail Manager](bellhowell.net)
+* [SQLite](sqlite.org)
+~~~
+
+### Setup
+
+The most important portion of any README is this section. Here is where you explain how to get a workstation setup to begin developing and ready to make code changes. 
+
+#### Workstation Configuration
+
+You should be sure to explain how to configure all of the programs that differ from the standard or default installation. 
+
+##### Databases
+
+You need to have instructions on how to setup a database for use with your application, because we shouldn't track the databases in version control, this is a vital portion of setup, here we need to be very clear about how to setup the database. so that from scratch a new instance could be created to run the application on another machine. 
+
+##### Mapped drives / Paths
+
+We need to ensure that our code is made general and able to run on any machine (even one not on our network) so we need to note any paths used either in the code, or utilized via mapped drives, etc. To begin with, simply make note f the places and paths that will need to be updated, and where the user/developer might need to point them (or what they are used for).
+
+We want to make it so that a new user could use this document to get a working development workstation runnig without any other user intervention. 
+
+### 
 
 Code
 ----
