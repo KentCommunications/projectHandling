@@ -68,7 +68,20 @@ README
 
 your readme needs to contain the following information.
 
-### 
+### Summary
+
+your readme should begin with a summary of what the purpose of the repoistory is. a Title, and a paragraph giving the general understanding to anyone who opens the repo.
+
+~~~ Markdown
+Main Project Title
+==================
+
+The <Main Project> was created by, <Author Name> to do something really cool, and you should really check out how it is able to do so.
+~~~
+
+### Prerequisites
+
+
 Code
 ----
 
@@ -103,19 +116,14 @@ SOURCE
 -----
 
 
-Data
-----
+### Data
 
 
-Tests
------
+### Tests
 
 
-.gitignore
-----------
+### .gitignore
 
-README.md
----------
 
 Install Script
 --------------
