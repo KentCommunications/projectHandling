@@ -20,7 +20,10 @@ Open a shell in the root of the project directory and run the following commands
     > git add --all
     > git commit -am "Initial Commit"
 
-This will begin tracking al the files in the project directory 
+This will begin tracking all the files in the project directory 
+
+To add the repo to github, you can simply drag the repo's folder onto the  Github for Windows application, and once in there, click on the repo. Now you can click on the "push to github" button in the upper right corner. then again, click on the "Publish" link to make the code available on github. the initial push should be to the Kent Communications github account, and ideally as a "private" repo.
+
 
 Branches
 --------
@@ -56,8 +59,16 @@ Layout and Structure
 Documentation
 -------------
 
-wiki when possible. except intial setup and need to know before editting and submitt patches, which should be in the README.md
+a README is vitally important to all repositories, and as such we should make sure they are updated frequently and always reflect the project in it's current state. 
 
+When possible be sure to add a wiki documenting the user's experience in your application/script.
+
+README
+------
+
+your readme needs to contain the following information.
+
+### 
 Code
 ----
 
