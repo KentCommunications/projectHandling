@@ -111,7 +111,9 @@ We need to ensure that our code is made general and able to run on any machine (
 
 We want to make it so that a new user could use this document to get a working development workstation runnig without any other user intervention. 
 
-### 
+### How to contribute
+
+It is also important to layout how you would like people to contribute to the project, be clear about code styles, and the type of information you'd like to see in a pull request. if you are using a testing framework, make sure to declare that all pull requests should have supported and passing tests.
 
 Code
 ----
