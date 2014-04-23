@@ -161,7 +161,7 @@ SOURCE
 Install Script
 --------------
 
-
+It should be your _**GOAL**_ to create an install script that will do any and all configuring needed to use your program, and ideally to submit changes as well.
 
 Intermediate steps
 ------------------
