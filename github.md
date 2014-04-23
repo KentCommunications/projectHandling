@@ -1,26 +1,15 @@
----
-layout : post
-category : git
-tags : [git, thoughts, learning, collaboration]
-tagline : "collaboration for teams"
----
-
-{% include JB/setup %}
-
 Pull Requests
 =============
 
 ## A tool for collaboration
-
-I have just begun really using github for my organization at work, and because of that I am 
-learning some of the features of github that I had previously ignored, or been oblivious of. 
 
 One of the biggest parts of collaborating on github is the pull request. Everything on github
 goes through pull requests. Fortunately github has provided a number of great nicities to make
 it easier. I thought it might be a good idea to cover the *standard* workflow that makes github
 work so well. 
 
-# Setup
+Setup
+-----
 
 ## Fork
 
@@ -30,10 +19,6 @@ we'll also need github, luckily github offers a number of tools that will help y
 running. [Here](http://github.com) you'll be able to sign up for an account if you don't already 
 have one. The installer for the github client on Windows and OSX include git, so that is probably 
 easiest way to get up and running. 
-
-Once you are up and running with git, you need to identify the project you'd like to contribute to. 
-I have taken the liberty of starting an Organization on github with a very plain repo, just a few 
-ruby files. You are welcome to use that repo as a guinea pig during this process. [Link](https://github.com/LearningGitWorkflow/LearningGitWorkflow)
 
 The first step is to fork the repo on github. *Unfortunately github doesn't yet support pull requests 
 from repositories that weren't forked on github.* [Github's article on forking a repo](https://help.github.com/articles/fork-a-repo) 
@@ -85,7 +70,8 @@ command, which is typically what I do. you would do that like this,
 
 That command will both create the branch and check it out. 
 
-# Making Changes
+Making Changes
+--------------
 
 ## Edit
 
